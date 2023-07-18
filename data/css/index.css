@@ -1,0 +1,64 @@
+* {font-family: sans-serif, Arial, Helvetica;
+	color: darkorange;
+	background-color: slategray;}
+
+.real{font-family: fantasy;
+	font-size: 130%}
+
+.p1{font-family: serif;}
+
+#header {font-family: fantasy;
+	border: 5px solid goldenrod;
+	padding: 10px;}
+
+h1, h2, h3{font-family: Copperplate, fantasy;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 0px #000000}
+
+h4 {padding: 10px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 1px 1px 0px #000000}
+
+#p1 {text-align: center;}
+
+p, ul{padding: 15px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 0px #000000}
+
+#logo{display: block;
+	margin-left: auto;
+	margin-right: auto;}
+
+table {padding: 15px;
+	font-weight: bold;
+	background-color: darkgray;
+	color: darkcyan;
+	border-color: cyan;
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow: 1px 1px 0px #000000}
+
+#head2, #head3, #head4, #head5 {font-family:"Lucida Console", "Courier New", monospace; 
+	background-color: gray;
+	border: 7px solid lightgray;
+	padding: 10px;}
+
+#ln, #goals, #links, #iframe {background-color: DarkGray;
+	border: 10px solid LightGray;
+	padding: 10px;}
+
+#gallery{display: block;
+	margin-left: auto;
+	margin-right: auto;}
+
+img {display: block;
+	margin: auto;}
+
+audio {display: block;
+	margin: auto;}
+
+video {display: block;
+	margin: auto}
