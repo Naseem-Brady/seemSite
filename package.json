@@ -11,7 +11,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "serve -s dist",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run client-install && npm run client-build",
+    "client-install": "cd client && npm install",
+    "client-build": "cd client && npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
