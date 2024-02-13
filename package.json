@@ -9,7 +9,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "pnpm run deploy",
+    "start": "npm install -g pnpm && pnpm i && pnpm run deploy",
     "dev": "vite",
     "build": "tsc && vite build",
     "deploy": "vite build && gh-pages -d dist",
