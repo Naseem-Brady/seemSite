@@ -1,1 +1,1 @@
-web: vite preview --port 8000
+web: npm run serve-heroku
