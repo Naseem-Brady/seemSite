@@ -3,6 +3,10 @@
   "homepage": "https://saurabhnemade.github.io/will-you-be-my-valentine",
   "private": true,
   "version": "0.0.1",
+  "engines": {
+    "node":"20.x",
+    "npm": "10.x"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,9 +15,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "serve -s dist",
-    "heroku-postbuild": "npm run client-install && npm run client-build",
-    "client-install": "cd client && npm install",
-    "client-build": "cd client && npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
