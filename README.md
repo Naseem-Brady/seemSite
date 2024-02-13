@@ -1,1 +1,1 @@
-Made with love for Arielle Golden
+Made with love for A.G.
